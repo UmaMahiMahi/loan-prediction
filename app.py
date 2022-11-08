@@ -41,6 +41,6 @@ def Loan_Prediction():
 
     return jsonify ("Loan Prediction : ",int(model_output[0]))
 
- 
+ #user
 if __name__ == '__main__':
     app.run(debug = True)
